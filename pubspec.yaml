@@ -1,0 +1,43 @@
+name: task_manager_app
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons:
+  flutter_bloc: 
+  get_it: 
+  hive_flutter: 
+  dio: 
+  flutter_secure_storage: 
+  go_router:
+  intl: 
+  shared_preferences:
+  hive: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: 
+  flutter_lints:
+  flutter_launcher_icons:
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.jpeg"
+  adaptive_icon_background: "#0D0D0D"
+  adaptive_icon_foreground: "assets/images/logo.jpeg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
